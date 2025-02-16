@@ -15,4 +15,8 @@ public class Person {
     public void sayHello() {
         System.out.println("Hello, my parrot's name is " + parrot.getName());
     }
+    public void introduce() {
+        System.out.println("I have a parrot named " + parrot.getName());
+    }
+
 }
