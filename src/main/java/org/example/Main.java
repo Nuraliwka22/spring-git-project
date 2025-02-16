@@ -9,6 +9,12 @@ public class Main {
         Person person = context.getBean(Person.class);
         person.sayHello();
 
+        Parrot parrot = context.getBean(Parrot.class);
+        parrot.speak();
+
+        Person personIntro = context.getBean(Person.class);
+        person.introduce();
 
     }
+
 }
