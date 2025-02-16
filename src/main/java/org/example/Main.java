@@ -8,5 +8,7 @@ public class Main {
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         Person person = context.getBean(Person.class);
         person.sayHello();
+
+
     }
 }
